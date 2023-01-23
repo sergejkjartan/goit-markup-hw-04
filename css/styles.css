@@ -226,6 +226,8 @@ img {
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-container {
@@ -281,15 +283,13 @@ img {
   width: 264px;
   background-color: var(--button-bgd-color);
   border-radius: 4px;
+  padding: 24px 100px;
 }
 
 .value-icon {
   height: 64px;
   width: 64px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-left: 100px;
-  margin-right: 100px;
+  
 }
 
 .value-item {
